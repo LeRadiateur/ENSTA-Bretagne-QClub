@@ -1,7 +1,7 @@
 # ENSTA Bretagne QClub
 
 # Description
-This repository contains everything related to quantum information science programming by the ENSTA Bretagne QClub team project
+This repository contains everything related to quantum information science programming by the ENSTA Bretagne QClub team project.
 You will find our work sorted by the month of creation and few samples created by ourselves or others to learn different aspects of those langages.
 
 
