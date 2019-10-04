@@ -1,4 +1,4 @@
-# QClub
+# ENSTA Bretagne QClub
 
 # Description
 This repository contains everything related to quantum information science programming by the ENSTA Bretagne QClub team project
