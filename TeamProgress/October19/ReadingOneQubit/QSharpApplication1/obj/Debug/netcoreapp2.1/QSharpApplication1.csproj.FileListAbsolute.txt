@@ -1,0 +1,10 @@
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\bin\Debug\netcoreapp2.1\QSharpApplication1.deps.json
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\bin\Debug\netcoreapp2.1\QSharpApplication1.runtimeconfig.json
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\bin\Debug\netcoreapp2.1\QSharpApplication1.runtimeconfig.dev.json
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\bin\Debug\netcoreapp2.1\QSharpApplication1.dll
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\bin\Debug\netcoreapp2.1\QSharpApplication1.pdb
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\obj\Debug\netcoreapp2.1\QSharpApplication1.csprojAssemblyReference.cache
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\obj\Debug\netcoreapp2.1\QSharpApplication1.AssemblyInfoInputs.cache
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\obj\Debug\netcoreapp2.1\QSharpApplication1.AssemblyInfo.cs
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\obj\Debug\netcoreapp2.1\QSharpApplication1.dll
+D:\MVS Quantum Project\testingArea\QSharpApplication1\QSharpApplication1\obj\Debug\netcoreapp2.1\QSharpApplication1.pdb
