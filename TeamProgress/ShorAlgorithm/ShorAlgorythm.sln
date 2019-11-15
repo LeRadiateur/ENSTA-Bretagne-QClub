@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShorAlgorythm", "ShorAlgorythm.csproj", "{20015C5F-42F9-4731-AA2E-0484B27CFD29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20015C5F-42F9-4731-AA2E-0484B27CFD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20015C5F-42F9-4731-AA2E-0484B27CFD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20015C5F-42F9-4731-AA2E-0484B27CFD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20015C5F-42F9-4731-AA2E-0484B27CFD29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E05DB067-0F1E-4E91-A958-F0653ADD7F52}
+	EndGlobalSection
+EndGlobal
