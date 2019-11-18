@@ -15,7 +15,7 @@ namespace Quantum.ShorAlgorythm
 	}
 	operation convert (reg : Qubit[], q : Int) : Int{
 		mutable result = 0;
-		for (i in 1..PowI(2,q)){
+		for (i in 0..MinusI(q,1)){
 			if (IsResultOne(M(reg[i]))){
 				set result = PlusI(result,PowI(2,i));
 			}
@@ -37,7 +37,7 @@ namespace Quantum.ShorAlgorythm
 	operation u_f (rq: Qubit[], q : Int, a : Int, n : Int) : Unit {
 		// ModI( Floor(AbsComplexPolar(PowCP()))
 		
-			set rq[q..TimesI(2,q)] =ExpModI( LittleEndian(rq[0..q]), a, n);
+			//set rq[q..TimesI(2,q)] =ExpModI( LittleEndian(rq[0..q]), a, n);
 	}
 
     operation Shor (n : Int, a : Int, q : Int) : (Int) {
@@ -57,9 +57,13 @@ namespace Quantum.ShorAlgorythm
 			Message ("Début Transformation de Fourier Quantique");
 			ApplyQuantumFourierTransformLE(LittleEndian(register[0..q]));	
 			Message ("Fin Transformation de Fourier Quantique");
+			Message ("Début de la mesure");
 			ApplyToEach(Mesure,register[0..q]);
+			Message ("Mesure effectuée");
 			// convertion du registre en un nombre décimal
-			let c = convert(register[0..q],q);
+			let c = convert(register[q..MinusI(TimesI(2,q),1)],q);
+			Message("c = ");
+			Message(IntAsString(c));
 			//reset des qubits
 			Message ("reset registre");	
 			ResetAll(register);
