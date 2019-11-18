@@ -7,7 +7,7 @@ import random
 import argparse
 
 # original author was Todd Wildey but the document as been modified by Evan Geoffroy
-# bug reported : 
+# bugs reported : 
 # Number of qubits Q was too high, as been modified to 2**Nb_bits_N 
 # if found divisors was 1 and N then program should restart
 __author__ = "Evan geoffroy"
