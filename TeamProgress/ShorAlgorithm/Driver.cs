@@ -53,6 +53,7 @@ namespace Quantum.ShorAlgorythm
                     System.Console.WriteLine(q);
                     System.Console.WriteLine(" ");
                     double output = (double)Shor.Run(qsim, Globals.memo_n, Globals.memo_rnd, q).Result;
+                    if (output == 0.0) { System.Console.WriteLine("result is null, stop processing"); return 0; }
                     int r = get_r(output);
                     // output est l'ordre r tel que x^r est congru à 1 modulo n
                     while (r % 2 != 0) // tant que l'ordre n'est pas pair recommencer :
@@ -85,6 +86,7 @@ namespace Quantum.ShorAlgorythm
                             System.Console.WriteLine(q2);
                             System.Console.WriteLine(" ");
                             output = (double)Shor.Run(qsim, Globals.memo_n, Globals.memo_rnd, q2).Result;
+                            if (output == 0.0) { System.Console.WriteLine("result is null, stop processing"); return 0; }
                             r = get_r(output);
                         };
                     };
@@ -120,6 +122,7 @@ namespace Quantum.ShorAlgorythm
                             System.Console.WriteLine(q3);
                             System.Console.WriteLine(" ");
                             output = (double)Shor.Run(qsim, Globals.memo_n, Globals.memo_rnd, q3).Result;
+                            if (output == 0.0) { System.Console.WriteLine("result is null, stop processing"); return 0; }
                             // output est l'ordre r tel que x^r est congru à 1 modulo n
                             r = get_r(output);
                             while (r % 2 != 0) // tant que l'ordre n'est pas pair recommencer :
@@ -147,10 +150,9 @@ namespace Quantum.ShorAlgorythm
                                     System.Console.WriteLine(Globals.memo_rnd);
                                     // calcul de q tel que n^2 <= 2^q < 2*n^2
                                     int q4 = Q_finder(Globals.memo_n);
-                                    System.Console.Write("q found : ");
-                                    System.Console.WriteLine(q4);
                                     System.Console.WriteLine(" ");
                                     output = (double)Shor.Run(qsim, Globals.memo_n, Globals.memo_rnd, q4).Result;
+                                    if (output == 0.0) { System.Console.WriteLine("result is null, stop processing"); return 0; }
                                     r = get_r(output);
                                 };
                             }
@@ -188,6 +190,8 @@ namespace Quantum.ShorAlgorythm
             q = 0;
             while (Math.Pow(n, 2) > Math.Pow(2, q))
             { q += 1; };
+            System.Console.Write("Q found : ");
+            System.Console.WriteLine(q);
             if (Math.Pow(2, q) <= (2 * Math.Pow(n, 2))){return q;}
             else { return 0; };
 	    }
