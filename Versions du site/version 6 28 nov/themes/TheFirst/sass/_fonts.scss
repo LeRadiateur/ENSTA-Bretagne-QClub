@@ -1,0 +1,101 @@
+/* mise en forme de la police à utliser */
+@font-face {
+    font-family: 'web_symbolsregular';
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#web_symbolsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+span.symbol{
+    font-family: 'web_symbolsregular';
+    font-weight: normal;
+    font-style: normal;
+    margin: 0 10px;
+}
+a   {
+    font-size: $size;
+    line-height: $size * 1.2;
+    text-decoration: none;
+    color: $secondaire;
+       
+}
+h1, h1>a{
+    font-size: $size * 2.8; 
+    line-height: $size * 2.8;
+}
+
+h2, h2>a {
+    font-size: $size * 2.4; 
+    line-height: $size * 2.6;
+     color: $primaire;
+    }
+
+h3 {
+    font-size: $size * 2; 
+    line-height: $size * 2;
+    }
+
+h4{
+    font-size: $size * 1.8;
+    line-height: $size * 1.8;
+    }
+h5{
+    font-size: $size * 1.6;
+    line-height: $size * 1.6;
+}
+h6{
+    font-size: $size * 1.4;
+    line-height: $size * 1.6;
+}
+p{
+    font-size: $size;
+    line-height: $size * 1.2;
+    margin-bottom: 20px;
+    }
+
+ul,li,td{
+    font-size: $size;
+    line-height: $size * 1.2;
+} 
+ul ol{
+    list-style-type: value;
+}
+blockquote {
+    border-left: 10px solid $primaire;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+        p {
+    display: inline;
+    font-size: $size;
+        }
+    }
+
+blockquote:before {
+    content: open-quote;
+    font-size: $size * 1.2;
+    line-height: $size * 1.4;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    }
+
+pre {
+    background: #EEE;
+    padding: 5px;
+    border-left: 5px solid $primaire;
+    margin-bottom: 15px;
+}
+table{
+    margin-bottom: 15px;
+}
+th {
+    border-bottom: 2px solid #000;
+    padding: 10px 8px;
+}
+td{
+    border-bottom: 1px solid #ccc;
+    padding: 6px 8px;
+}

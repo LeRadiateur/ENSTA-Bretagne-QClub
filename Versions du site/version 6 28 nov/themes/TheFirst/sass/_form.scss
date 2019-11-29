@@ -1,0 +1,82 @@
+
+/* style des formualires et des boutons */
+
+label{
+    display: inline-block;
+    width: 100%;
+    color: $primaire;
+}
+
+input[type='text'], textarea{
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid $primaire;
+    
+    @include border-radius (4px);
+    @include box-shadow (0 1px 1px rgba(0, 0, 0, 0.075) inset);
+
+    color: #555;
+    font-size: 15px;
+
+    padding: 6px 12px!important;
+    width: 60%!important;
+    height: 36px!important;
+    
+    @include transition-duration(1s);
+
+}
+input[type='text']:hover, textarea:hover{
+    border: 1px solid #000;
+}
+textarea{
+    height: 150px!important;
+    resize: none;
+}
+input.capcha{
+    width: 60px;
+}
+.bt, input[type='submit'] {
+    margin: 15px 0;
+    -webkit-appearance: none;  // remove shadow in iOS
+    @include border-radius(0);  // remove border-radius in iOS
+    @include border-radius(5px);
+
+    background: $secondaire; 
+    
+    color: #fff;
+    font-size: $size * 1.3;
+
+    padding: 10px 25px;
+    text-decoration: none;
+    
+    
+    &:hover {
+        background: lighten($secondaire, 5%);
+        cursor: pointer;
+    }
+}
+input[type='reset']{
+    margin: 15px 0;
+    -webkit-appearance: none;  // remove shadow in iOS
+    @include border-radius(0);  // remove border-radius in iOS
+    @include border-radius(5px);
+
+    background: $primaire; 
+    
+    color: #fff;
+    font-size: $size * 1.3;
+
+    padding: 10px 25px;
+    text-decoration: none;
+    
+    
+    &:hover {
+        background: lighten($primaire, 5%);
+        cursor: pointer;
+    }
+}
+form p{margin: 10px 0 0 0}
+
+#id_rep{
+    width: 20%!important;
+}

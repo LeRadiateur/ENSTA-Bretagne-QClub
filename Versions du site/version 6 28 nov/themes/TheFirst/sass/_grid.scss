@@ -1,0 +1,117 @@
+/* Valeurs par defaut */
+$wrap: 960px!default;
+$gutter: 20px!default;
+$bloc: 12!default;
+$max-width: 960px!default;
+
+
+/* Début mise en page */
+.wrap {width: $wrap;margin:0 auto;}
+.wrap:after {content: "";display: table;clear: both;}
+
+.clear:before,.clear:after {content: " ";display: table}
+.clear:after {clear: both}
+.clear {*zoom: 1}
+
+
+/* Ajout des options sur tous les blocs */
+%bloc{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 0 $gutter * 0.5;
+
+    
+    img{
+        max-width: 100%
+    }
+}
+
+/* Création des blocs */
+@for $i from 1 through $bloc {
+	.bloc-#{$i} {
+        width: $i / $bloc * 100%;
+        @extend %bloc;
+	}
+}
+
+/* responsive */
+
+@media handheld, only screen and (max-width: $wrap) {
+    .wrap{
+        width: 100%
+    }
+}
+
+@media handheld, only screen and (max-width: $max-width) {
+
+    
+	.wrap {width: 100%;min-width: 0;margin: 0;padding: 0}
+	[class*='bloc-'] {width: auto;float: none;margin:0;padding-top: 10px;}
+    
+    /* images */
+	img {max-width: 100%;height: auto;}
+    
+    /* navigation */
+    header{
+        padding: 0;
+        
+        h1.logo>a{
+        margin: 10px 0;
+    }
+    }
+	header .nav {
+		position: relative;min-height: 40px;
+
+		ul {
+		width: 100%;
+		padding: 5px 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		border: solid 1px #aaa;
+		background: #fff url(img/icon-menu.png) no-repeat 10px 14px;		
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3)}	
+        
+
+		li {
+		display: none; /* hide all <li> items */
+		margin: 0}
+
+		ul li.navigation {
+		display: block}
+
+ 
+ 		a {
+		display: block;
+		padding: 5px 5px 5px 32px;
+		text-align: left}
+
+		.navigation a {
+		background: none}
+
+		ul:hover {
+		background-image: none}
+
+		ul:hover li {
+		display: block;
+		margin: 0 0 5px}
+
+		ul:hover .active {
+		background: url(img/icon-check.png) no-repeat 10px 10px;color: $primaire;}
+
+	}
+    
+    /* formulaire */
+    input[type='text'], textarea, input.capcha, input[type='submit'], input[type='reset']{
+        width: 100%!important;
+        }
+}
+
+
+
+
+
+
