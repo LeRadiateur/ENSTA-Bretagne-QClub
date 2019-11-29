@@ -1,0 +1,100 @@
+/* bloc header */
+
+header{ text-align: center;background: #fff;padding: 50px 0;
+    
+     @include box-shadow(1px 1px 12px #555);
+    
+    h1.logo>a{
+        color: #252122;
+        font-weight: 900;
+        font-size: $size * 3.5;
+        letter-spacing: -0.035em;
+        display: inline-block;
+        margin: 15px 0;
+    }
+    
+    
+   .nav {position: relative;margin: 20px 0;
+       
+        ul li.navigation {
+            display: none
+            } 
+
+        ul {
+            margin: 0;padding: 0
+            }
+       
+        li {
+            margin: 0 5px 10px 0;
+            padding: 0;
+            list-style: none;
+            display: inline-block;
+            } 
+       
+        a {
+            font-size: $size * 1.1;  
+            padding: 3px 12px;
+            text-decoration: none;
+            line-height: 100%;
+            font-weight: 400;
+            font-style: italic;
+            
+            border-radius: 5px;
+				color: #5d5d5d;
+				text-decoration: none;
+				padding: 0.6em 1.2em 0.6em 1.2em;
+				-moz-transition: background-color .25s ease-in-out;
+				-webkit-transition: background-color .25s ease-in-out;
+				-o-transition: background-color .25s ease-in-out;
+				-ms-transition: background-color .25s ease-in-out;
+				transition: background-color .25s ease-in-out;
+				outline: 0;
+            } 
+       a:hover{
+           background: #f3f3f3;
+       }
+       a.active 
+			{
+				background: #d52349;
+                color: #fff;
+			}
+        } 
+}
+
+#info{
+    background: url('img/info.jpg') center;
+    @include background-size(cover);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    .info{
+        
+        width: 80%;
+        margin: 0 auto;
+        color: #fff;
+        padding: 30px;
+        border-radius: 5px;
+		background-color: #252122;
+		background-color: rgba(34,30,31,0.98);
+        box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.5);
+        text-align: center;
+        
+        h2, p, a {
+             @include animate(fade-in, .6s, 400ms);
+        }
+        
+        
+        h2{
+            color: #fff;
+            font-weight: 700;
+            font-size: $size * 2.5;
+            margin-bottom: 25px;
+        }
+        p{
+            color: $secondaire;
+            font-size: $size * 1.1;
+            margin-bottom: 30px;
+        }
+    }
+}
+

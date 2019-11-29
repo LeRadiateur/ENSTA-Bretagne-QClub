@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+	<title><![CDATA[Présentation du club informatique quantique]]></title>
+	<allow_com>1</allow_com>
+	<template><![CDATA[article.php]]></template>
+	<chapo><![CDATA[]]></chapo>
+	<content><![CDATA[<p>Le club d'informatique quantique de l'ENSTA Bretagne est encore en développement mais ouvrira bientôt ces portes!
+Le QClub a pour but de vous faire initier à la programmation quantique sous tous ses aspects ! </p>]]></content>
+	<tags><![CDATA[Présentation]]></tags>
+	<meta_description><![CDATA[]]></meta_description>
+	<meta_keywords><![CDATA[]]></meta_keywords>
+	<title_htmltag><![CDATA[]]></title_htmltag>
+	<thumbnail><![CDATA[core/admin/theme/images/pluxml.png]]></thumbnail>
+	<thumbnail_alt><![CDATA[]]></thumbnail_alt>
+	<thumbnail_title><![CDATA[]]></thumbnail_title>
+	<date_creation><![CDATA[201911182240]]></date_creation>
+	<date_update><![CDATA[201911201427]]></date_update>
+</document>

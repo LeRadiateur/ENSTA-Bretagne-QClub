@@ -1,0 +1,25 @@
+/* style de la sidebar*/
+
+aside ol, aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a{
+    color: inherit;
+}
+
+
+aside li.titre-blog {
+    margin-bottom: 10px;
+    font-size: $size * 1.6
+}
+
+aside h2.titre{
+    font-size: $size * 1.4;
+}
+.social>h2{
+    margin-bottom: 25px;
+    
+}

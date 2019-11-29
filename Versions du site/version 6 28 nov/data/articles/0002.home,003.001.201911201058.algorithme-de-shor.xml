@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+	<title><![CDATA[Algorithme de Shor !]]></title>
+	<allow_com>1</allow_com>
+	<template><![CDATA[article.php]]></template>
+	<chapo><![CDATA[]]></chapo>
+	<content><![CDATA[L'algorithme de Shor consiste à utiliser le parallélisme possible grâce à l’informatique quantique afin de trouver les diviseurs d’un nombre dit semi-premier, c’est-à-dire qui ne possède que deux autres diviseurs que lui-même et un. Par Exemple, le nombre 111 possède comme diviseurs 1,3,37 et 111, il est donc dit semi-premier. Le QClub travaille sur deux codes, l’un en utilisant le langage Q# qui est encore en cours de développement et un, fonctionnel, sous python exploitant la programmation orientée objet, afin de résoudre ce problème.]]></content>
+	<tags><![CDATA[Shor]]></tags>
+	<meta_description><![CDATA[]]></meta_description>
+	<meta_keywords><![CDATA[]]></meta_keywords>
+	<title_htmltag><![CDATA[]]></title_htmltag>
+	<thumbnail><![CDATA[data/medias/shor_solo_2.png]]></thumbnail>
+	<thumbnail_alt><![CDATA[]]></thumbnail_alt>
+	<thumbnail_title><![CDATA[]]></thumbnail_title>
+	<date_creation><![CDATA[201911201058]]></date_creation>
+	<date_update><![CDATA[201911201336]]></date_update>
+</document>

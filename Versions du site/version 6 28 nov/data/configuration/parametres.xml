@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+	<parametre name="title"><![CDATA[PluXml]]></parametre>
+	<parametre name="description"><![CDATA[Blog ou Cms à l'Xml !]]></parametre>
+	<parametre name="meta_description"><![CDATA[]]></parametre>
+	<parametre name="meta_keywords"><![CDATA[]]></parametre>
+	<parametre name="timezone"><![CDATA[Europe/Paris]]></parametre>
+	<parametre name="allow_com">1</parametre>
+	<parametre name="mod_com">0</parametre>
+	<parametre name="mod_art">0</parametre>
+	<parametre name="capcha">1</parametre>
+	<parametre name="style"><![CDATA[TheFirst]]></parametre>
+	<parametre name="clef"><![CDATA[kNPZZrvPAUE0ZO2]]></parametre>
+	<parametre name="bypage">5</parametre>
+	<parametre name="bypage_archives">5</parametre>
+	<parametre name="bypage_tags">5</parametre>
+	<parametre name="bypage_admin">10</parametre>
+	<parametre name="bypage_admin_coms">10</parametre>
+	<parametre name="bypage_feed">8</parametre>
+	<parametre name="tri"><![CDATA[desc]]></parametre>
+	<parametre name="tri_coms"><![CDATA[asc]]></parametre>
+	<parametre name="images_l">800</parametre>
+	<parametre name="images_h">600</parametre>
+	<parametre name="miniatures_l">200</parametre>
+	<parametre name="miniatures_h">100</parametre>
+	<parametre name="thumbs">0</parametre>
+	<parametre name="medias"><![CDATA[data/medias/]]></parametre>
+	<parametre name="racine_articles"><![CDATA[data/articles/]]></parametre>
+	<parametre name="racine_commentaires"><![CDATA[data/commentaires/]]></parametre>
+	<parametre name="racine_statiques"><![CDATA[data/statiques/]]></parametre>
+	<parametre name="racine_themes"><![CDATA[themes/]]></parametre>
+	<parametre name="racine_plugins"><![CDATA[plugins/]]></parametre>
+	<parametre name="homestatic"><![CDATA[]]></parametre>
+	<parametre name="hometemplate"><![CDATA[home.php]]></parametre>
+	<parametre name="urlrewriting">0</parametre>
+	<parametre name="gzip">0</parametre>
+	<parametre name="feed_chapo">0</parametre>
+	<parametre name="feed_footer"><![CDATA[]]></parametre>
+	<parametre name="version">5.7</parametre>
+	<parametre name="default_lang"><![CDATA[fr]]></parametre>
+	<parametre name="userfolders">0</parametre>
+	<parametre name="display_empty_cat">0</parametre>
+	<parametre name="custom_admincss_file"><![CDATA[]]></parametre>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<user number="001" active="1" profil="0" delete="0">
+		<login><![CDATA[AlbertQclub]]></login>
+		<name><![CDATA[Albert De Hooghe]]></name>
+		<infos><![CDATA[]]></infos>
+		<password><![CDATA[769e2c7eb0104df6ac4de8141e56ff356e2741d0]]></password>
+		<salt><![CDATA[I8kOLQd5JB]]></salt>
+		<email><![CDATA[]]></email>
+		<lang><![CDATA[fr]]></lang>
+	</user>
+	<user number="002" active="1" profil="2" delete="0">
+		<login><![CDATA[EvanQclub]]></login>
+		<name><![CDATA[Evan Geoffroy]]></name>
+		<infos><![CDATA[]]></infos>
+		<password><![CDATA[702b0ff747b801aba10d2da91b5b285bc6ebbdf7]]></password>
+		<salt><![CDATA[FycPdKLVZX]]></salt>
+		<email><![CDATA[evan.geoffroy@ensta-bretagne.org]]></email>
+		<lang><![CDATA[en]]></lang>
+	</user>
+</document>

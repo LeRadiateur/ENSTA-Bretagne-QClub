@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<categorie number="001" active="1" homepage="1" tri="desc" bypage="5" menu="oui" url="rubrique-apprentissage" template="categorie.php"><name><![CDATA[Rubrique Apprentissage]]></name><description><![CDATA[]]></description><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag></categorie>
+	<categorie number="002" active="1" homepage="1" tri="desc" bypage="5" menu="oui" url="faq" template="categorie.php"><name><![CDATA[FAQ]]></name><description><![CDATA[]]></description><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag></categorie>
+	<categorie number="003" active="1" homepage="1" tri="desc" bypage="5" menu="oui" url="anecdotes-courtes-histoires" template="categorie.php"><name><![CDATA[Anecdotes & courtes histoires]]></name><description><![CDATA[]]></description><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag></categorie>
+</document>

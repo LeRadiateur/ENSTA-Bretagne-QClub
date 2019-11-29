@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<statique number="001" active="0" menu="oui" url="statique-1" template="static.php"><group><![CDATA[]]></group><name><![CDATA[Statique 1]]></name><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag><date_creation><![CDATA[201911182240]]></date_creation><date_update><![CDATA[201911182240]]></date_update></statique>
+	<statique number="002" active="1" menu="oui" url="qui-sommes-nous" template="static.php"><group><![CDATA[]]></group><name><![CDATA[Qui sommes-nous ? ]]></name><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag><date_creation><![CDATA[201911182246]]></date_creation><date_update><![CDATA[201911182246]]></date_update></statique>
+	<statique number="003" active="1" menu="oui" url="contact" template="static.php"><group><![CDATA[]]></group><name><![CDATA[Contact]]></name><meta_description><![CDATA[]]></meta_description><meta_keywords><![CDATA[]]></meta_keywords><title_htmltag><![CDATA[]]></title_htmltag><date_creation><![CDATA[201911182246]]></date_creation><date_update><![CDATA[201911182246]]></date_update></statique>
+</document>
