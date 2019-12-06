@@ -4,7 +4,7 @@ Please note that the tested number must be less than 32, because of the number o
 
 Quantum algorithm has been successfully runned with 21 and 9,
 
-Because of the complexity of this algorithm, the computation of the number 21 can take several hours on a powerful computer (due to the number of qubits that the computer must create)
+Because of the complexity of this algorithm, the computation of the number 21 can take several hours on a powerful computer (due to the number of qubits that the computer must create) depending of the random number chosen
 But with numbers that are less than 16, classical computer might successfully run this program. Stay careful of not use other programs at the same time if you don't want your computer to crash.
 
 Please note that, this algorithm might have bugs / might be bad coded, in this case please send a bug report to this mail adress : 
